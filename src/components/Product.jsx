@@ -27,7 +27,8 @@ const Product = ({post}) => {
         <p className="w-40 text-gray-400 font-normal text-[10px] text-left">{post.description.split(" ").slice(0,10).join(" ") + "..."}</p>
       </div>
       <div className="h-[180px]">
-        <img src={post.image} className="h-full w-full " />
+        {/* <img src={post.image} className="h-full w-full " /> */}
+        <img src="https://images.pexels.com/photos/9609842/pexels-photo-9609842.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" className="h-full w-full " />
       </div>
 
       <div className="flex justify-between gap-12 items-center w-full mt-5">
